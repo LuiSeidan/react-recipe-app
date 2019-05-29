@@ -1,0 +1,18 @@
+import React, { Component } from "react";
+import Header from "../components/Header";
+import { Link } from "react-router-dom";
+
+export default class Home extends Component {
+  render() {
+    return (
+      <Header title="Amazing Recepies">
+        <Link
+          to="recepies"
+          className="text-uppercase btn btn-secondary btn-lg mt-3"
+        >
+          search recepies
+        </Link>
+      </Header>
+    );
+  }
+}
