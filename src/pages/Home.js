@@ -7,7 +7,7 @@ export default class Home extends Component {
     return (
       <Header title="Amazing Recepies">
         <Link
-          to="recepies"
+          to="/recipes"
           className="text-uppercase btn btn-secondary btn-lg mt-3"
         >
           search recepies
